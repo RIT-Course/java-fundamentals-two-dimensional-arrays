@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>course.rit.javafundamentals</groupId>
-    <artifactId>twodimensionalarrays</artifactId>
+    <artifactId>twodimensionalarray</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

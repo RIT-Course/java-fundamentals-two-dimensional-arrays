@@ -1,24 +1,6 @@
-package course.rit.javafundamentals.twodimensionalarrays;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+package course.rit.javafundamentals.twodimensionalarray;
 
 public class TwoDimensionalArray {
-    /**
-     * Reads values from a file and stores them in a two-dimensional array.
-     *
-     * @param filename the name of the file to read values from
-     * @return a two-dimensional array of integers
-     * @example TwoDimensionalArray tda = new TwoDimensionalArray();
-     * int[][] array = tda.readValuesFromFile("numbers.csv");
-     */
-    public int[][] readValuesFromFile(String filename) {
-        return new int[0][0];
-    }
-
     /**
      * Finds the maximum value in a two-dimensional array.
      *

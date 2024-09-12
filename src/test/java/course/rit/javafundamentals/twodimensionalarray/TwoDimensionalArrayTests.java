@@ -1,4 +1,4 @@
-package course.rit.javafundamentals.twodimensionalarrays;
+package course.rit.javafundamentals.twodimensionalarray;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -89,17 +89,5 @@ public class TwoDimensionalArrayTests {
     public void findSumForEachColumnShouldReturnSumForEachColumn(int[][] array, int[] expectedSums) {
         TwoDimensionalArray unitUnderTest = new TwoDimensionalArray();
         assertEquals(unitUnderTest.calcSumForEachColumn(array), expectedSums);
-    }
-
-    @Test
-    public void readValuesFromFileShouldReturn2DArray() {
-        TwoDimensionalArray unitUnderTest = new TwoDimensionalArray();
-        int[][] expectedArray = {
-                {1, 2, 3},
-                {4, 5, 6},
-                {7, 8, 9}
-        };
-        int[][] resultArray = unitUnderTest.readValuesFromFile("src/test/resources/numbers.csv");
-        assertEquals(resultArray, expectedArray);
     }
 }
