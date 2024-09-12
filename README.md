@@ -1,4 +1,4 @@
-# Two dimensional arrays
+# Two dimensional array
 
 This assignment should help you to refresh your knowledge on working with two-dimensional arrays.
 Your task is to implement all methods in the [TwoDimensionalArray](src/main/java/course/rit/javafundamentals/twodimensionalarray/TwoDimensionalArray.java) class.
